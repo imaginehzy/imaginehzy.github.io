@@ -1,6 +1,6 @@
 ---
 layout:post
-title: 2015读完的书以及读了一本开溜的
+title: 写就是写本身的报酬
 date:2016-01-11
 categories: blog
 tags:[阅读]
