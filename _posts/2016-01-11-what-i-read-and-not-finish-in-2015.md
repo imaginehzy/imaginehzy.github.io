@@ -1,10 +1,12 @@
 ---
 layout:post
 title: 2015年读完的书以及读了一半开溜的
-categories:blog
-tags:[read]
+categories: blog
+tags:[阅读,]
 description:2015 recheck
+
 ---
+
 
 ##读完了的
 
@@ -60,6 +62,7 @@ description:2015 recheck
 
 ###《达芬奇密码》
 3.5星 ： 热门书不评价，很好的消遣。
+
 
 
 
