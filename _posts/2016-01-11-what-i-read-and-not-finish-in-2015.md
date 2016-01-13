@@ -1,7 +1,7 @@
 ---
 layout:post
 title: 2015年读完的书以及读了一半开溜的
-categories: blog
+categories: [blog]
 tags:[阅读,]
 description:2015 recheck
 
