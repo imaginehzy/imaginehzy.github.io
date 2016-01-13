@@ -1,17 +1,9 @@
 ---
 layout: post
-title: "Zhiping's Articles"
-description: "微信文章阳志平专栏索引"
-category: articles
-tags: [专栏]
----
-
----
-layout:post
 title: "2015年读完的书以及读了一半开溜的"
-categories: [blog]
-tags:[阅读,]
-description:"2015 recheck"
+description: "2015年阅读回顾"
+category: articles
+tags: [阅读]
 ---
 
 
