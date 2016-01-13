@@ -1,11 +1,13 @@
 ---
-layout:post
-title:人类的计算能力与图灵机
-categories:[blog]
-tags:[AI,]
-description:思考人类的计算能力是否能超越图灵机
-
+layout: post
+title: "人类的计算能力与图灵机"
+description: "思考人类的计算能力是否能超越图灵机"
+category: articles
+tags: [AI]
 ---
+
+##人类的计算能力与图灵机
+
 
 阿伦·图灵通过证明，限定了我们可以用计算机等一切**图灵等价**的有计算能力的人造物（craft），可以计算什么，不可以计算什么。
 
