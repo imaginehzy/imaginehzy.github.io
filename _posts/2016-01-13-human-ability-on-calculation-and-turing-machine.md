@@ -1,7 +1,7 @@
 ---
 layout:post
-title: 人类的计算能力与图灵机
-categories: blog
+title:人类的计算能力与图灵机
+categories:[blog]
 tags:[AI,]
 description:思考人类的计算能力是否能超越图灵机
 
