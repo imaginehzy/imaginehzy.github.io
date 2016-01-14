@@ -3,7 +3,7 @@ layout: post
 title: "如何向非专业人士解释复杂的概念"
 description: "科普大咖的沟通传播技巧"
 category: articles
-tags: [沟通技巧]
+tags: [沟通技巧,阅读]
 ---
 
 
