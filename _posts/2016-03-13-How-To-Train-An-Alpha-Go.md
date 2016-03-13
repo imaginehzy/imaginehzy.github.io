@@ -72,13 +72,19 @@ tags: [AI]
 
 （我们在这张图里面看，进行多少步后，快速走子的错误率还是比随机走子准确率高。）
 
-##左右互搏出来的另一张网络
+##左右互搏出来的另一个分身
 
 到现在，通过有监督学习SL，利用围棋高手的下棋数据我们训练出来了一张走子策略网络，我们叫他policy network SL。然好，DeepMind进了一步，他们在policy network SL的基础上，通过另一种学习方法**强化学习Reinforce Learning RL**，通过自己和自己下棋训练出了另一张走子策略网络policy network RL还有，从自己对弈的3千万局数据中训练出来了**局面评估网络（value network）** 
 
 ![RL和Value network](http://7xq85r.com1.z0.glb.clouddn.com/0506dfb2ed40f37b0785fa99a8688d41.png)
 
+**强化学习Reinforce Learning RL** 我理解就是通过梯度下降法来不停的提高自己的能力。在policy network SL作为第一代policy network RL，开始和自己对弈，对弈训练后对自己参数进行调整。然后迭代出来第二代policy network RL。为了防止过度拟合，就是过度像自己，只往一个方向发展，之后的每一代policy network RL，都从网络池里挑选前面相隔比较早的隔代policy network RL对弈进行训练。
 
+这样policy network RL在和欧洲冠军对弈时已经进行了3千万局了，在和李世石对弈前，都不知道这个数据变成怎么样了。
+
+而据说policy network RL下棋的走法不像policy network SL那么多样，但是通过强化训练后policy network RL对policy network SL的胜率已经达80%了。
+
+##价值网络
 
 
 
