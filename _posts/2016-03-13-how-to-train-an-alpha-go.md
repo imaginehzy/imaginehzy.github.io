@@ -19,7 +19,8 @@ tags: [AI]
 1. 走子策略网络（policy network）
 2. 快速走子（fast rollout）
 3. 局面评估网络（value network）
+4. 蒙特卡洛树搜索（monte-carlo tree search，MCTS）
 
 上面这三部分，在赛前中进行数据训练得出来的**功能**，而第4部分，则是在实战中，将1-3的功能来进行计算的部分。
 
-4. 蒙特卡洛树搜索（monte-carlo tree search，MCTS）
+
