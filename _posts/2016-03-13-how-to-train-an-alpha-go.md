@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "如何训练一只阿法狗"
+title: "如何完成比难更难的事？"
 description: ""
 category: articles
-tags: [AI]
+tags: [阅读]
 ---
 
-![Alpha Go的图腾由一个莫比乌斯圈组成](http://7xq85r.com1.z0.glb.clouddn.com/836ad67d62458c744c2253b87f14ea51.jpeg)
+![AlphaGo](http://7xq85r.com1.z0.glb.clouddn.com/836ad67d62458c744c2253b87f14ea51.jpeg)
 
 昨天是Alpha Go对李世石的第三盘，在做饭间我看了开局，阿法狗又祭出了新招式，感觉李世石要0：5接受阿法狗教育的命运不可阻挡。虽然我也没有看过柯洁的棋，作为人类世界冠军，年少轻狂这种词也不适合戴他头上，唯有希望Google能够安排他们也战一次。
 
