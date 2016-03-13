@@ -35,6 +35,8 @@ tags: [AI]
 
 ![视觉识别例子](http://7xq85r.com1.z0.glb.clouddn.com/cdd9ea4ba57d99d3c5db277fcec537ea.png)
 
+![人脸识别](http://7xq85r.com1.z0.glb.clouddn.com/564ba0c236568.jpg)
+
 假设是一张64*64像素的图，通常会将其二值化，就是变成黑白灰的灰度图。然后第一层提取特征，乃至二三四层，越来抽象。计算机是这样识别人脸的，据他们说这也是参照人类的神经网络结构而成的。具体的说法来源我没有考证过。
 
 ![神经网络](http://7xq85r.com1.z0.glb.clouddn.com/da03415312964e76cef62170685a87c8.png)
