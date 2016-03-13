@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "如何完成比难更难的事？"
+title: "如何训练一只阿法狗"
 description: ""
 category: articles
 tags: [阅读]
