@@ -14,7 +14,8 @@ tags: [AI]
 
 于是没有接着看棋，我转而去看了DeepMind发表在Nature上面的论文**Mastering the Game of Go with Deep Neural Networks and Tree Search**，仔细的学习了下阿法狗是怎么训练，在实战是怎么样运作的。由于关于机器学习我只有皮毛的知识，也没用实践过，我的讲解应该是不难理解的。（也有可能有细节上的错误）
 
-##梗概
+梗概
+====
 
 阿法狗是由这么四部分组成的：
 
