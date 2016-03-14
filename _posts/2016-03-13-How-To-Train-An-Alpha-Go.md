@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "如何训练出一只阿法狗"
+title: "如何训练出一条阿法狗"
 description: ""
 category: articles
 tags: [AI]
