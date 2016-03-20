@@ -143,12 +143,12 @@ tags: [AI]
 
 Figure 5: How AlphaGo (black, to play) selected its move in an informal game against Fan Hui. For each of the following statistics, the location of the maximum value is indicated by an orange circle. 
 
-a Evaluation of all successors s′ of the root position s, using the value network vθ(s′); estimated winning percentages are shown for the top evaluations. 
-b Action-values Q(s,a) for each edge (s, a) in the tree from root position s; averaged over value network evaluations only (λ = 0).
-c Action-values Q(s, a), averaged over rollout evaluations only (λ = 1). 
-d Move probabilities directly from the SL policy network, pσ(a|s); reported as a percentage (if above 0.1%). 
-e Percentage frequency with which actions were selected from the root during simulations. 
-f The principal variation (path with maximum visit count) from AlphaGo’s search tree. The moves are presented in a numbered sequence. 
++ a Evaluation of all successors s′ of the root position s, using the value network vθ(s′); estimated winning percentages are shown for the top evaluations. 
++ b Action-values Q(s,a) for each edge (s, a) in the tree from root position s; averaged over value network evaluations only (λ = 0).
++ c Action-values Q(s, a), averaged over rollout evaluations only (λ = 1). 
++ d Move probabilities directly from the SL policy network, pσ(a|s); reported as a percentage (if above 0.1%). 
++ e Percentage frequency with which actions were selected from the root during simulations. 
++ f The principal variation (path with maximum visit count) from AlphaGo’s search tree. The moves are presented in a numbered sequence. 
 
 AlphaGo selected the move indicated by the red circle; Fan Hui responded with the move indicated by the white square; in his post-game commentary he preferred the move (1) predicted by AlphaGo.
 
