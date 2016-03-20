@@ -139,6 +139,19 @@ tags: [AI]
 
 首先让走子策略网络（policy network SL或者RL）给出下棋最大概率的几着，然后开始这几步分支，用快速走子进行蒙特卡洛树的搜索，同时也用局面评估网络value network对当前给一个判断。局面评估网络和快速走子的蒙特卡罗树搜索，按照分配两个合起来为一的权重，然后为这一步的值。然后对整个分支依步数合并为一个总值，然后看最初哪一步的分支值最高就是计算机在比赛现场算出来走子的一步了。
 
+![各部分输出](http://7xq85r.com1.z0.glb.clouddn.com/Screen%20Shot%202016-03-20%20at%20%E4%B8%8A%E5%8D%888.29.39.png)
+
+Figure 5: How AlphaGo (black, to play) selected its move in an informal game against Fan Hui. For each of the following statistics, the location of the maximum value is indicated by an orange circle. 
+
+a Evaluation of all successors s′ of the root position s, using the value network vθ(s′); estimated winning percentages are shown for the top evaluations. 
+b Action-values Q(s,a) for each edge (s, a) in the tree from root position s; averaged over value network evaluations only (λ = 0).
+c Action-values Q(s, a), averaged over rollout evaluations only (λ = 1). 
+d Move probabilities directly from the SL policy network, pσ(a|s); reported as a percentage (if above 0.1%). 
+e Percentage frequency with which actions were selected from the root during simulations. 
+f The principal variation (path with maximum visit count) from AlphaGo’s search tree. The moves are presented in a numbered sequence. 
+
+AlphaGo selected the move indicated by the red circle; Fan Hui responded with the move indicated by the white square; in his post-game commentary he preferred the move (1) predicted by AlphaGo.
+
 ## 两个后续问题
 
 ### DeepMind说从0训练一个Beta Go要怎么做？
