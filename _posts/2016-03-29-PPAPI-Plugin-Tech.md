@@ -28,6 +28,7 @@ Native Client 是一个沙盒技术。是目前google主推的使用native code�
 
 NaCl要编译成动态链接库，PNaCl只能编译成静态库
 
+![NaCl和PNaCl](http://7xq85r.com1.z0.glb.clouddn.com/nacl-pnacl-component-diagram.png)
 
 
 PPAPI是什么
@@ -40,6 +41,7 @@ PPAPI是什么
 
 本质上，PPAPI只是一个提供给c/c++的接口，我们实现这些要求用到的接口里面的功能。
 
+![插件运行](http://7xq85r.com1.z0.glb.clouddn.com/nacl_diagram.png)
 
 
 限制
